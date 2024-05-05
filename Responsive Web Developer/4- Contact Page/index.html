@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="img/contact-form-icon.svg" alt="">
+    </div>
+
+    <div id="contenedor">
+        <div id="texto">
+            <h1>Interested in our business pricing?</h1>
+            <h2>Fill out the form to view details and we'll contact you as soon as possible.</h2>
+        </div>
+
+        <div id="formulario">
+            <form action="">
+                <div class="fila">
+                    <div id="nombre">
+                        <label for="input_nombre">Name</label><br>
+                        <input type="text" placeholder="Ethan Johnson" id="input_nombre"><br>
+                    </div>
+                    <div id="email">
+                        <label for="input_email">Email</label> <br>
+                        <input type="email" placeholder="ethan@johnson.com" id="input_email">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div id="nombre">
+                        <label for="input_company">Company Size</label><br>
+                        <select name= "input_company" id="input_company">
+                            <option value='0 - 50' selected>0 - 50 employees </option>
+                            <option value='50 - 100'>50 - 100 employees </option>
+                            <option value='100 - 150'>100 - 150 employees</option>
+                            <option value='150 - 200'>150 - 200 employees </option>
+                            <option value='more'>More</option>
+                        </select>
+                    </div>
+                    <div id="email">
+                        <label for="input_email">Subject</label> <br>
+                        <select name= "input_company" id="input_company">
+                            <option value='BLP' selected>Building Landing Pages </option>
+                            <option value='BR'>Building Robots</option>
+                            <option value='H'>Hockey</option>
+                            <option value='R'>Robotics</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mensaje">
+                    <div id="nombre">
+                        <label for="input_messaje">Message</label><br>
+                        <textarea name="" id="input_messaje" placeholder="0 - 50 employees"></textarea>
+                    </div>
+                </div>
+                <div id="boton">
+                    <button>Contact Sales</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
